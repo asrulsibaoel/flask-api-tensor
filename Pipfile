@@ -13,8 +13,11 @@ gunicorn = "*"
 jsonschema = "*"
 swagger-ui-bundle = "*"
 pytest = "<=4.*"
+pymysql = "*"
+python-dotenv = "*"
 
 [dev-packages]
+pylint = "*"
 
 [requires]
 python_version = "3.7"
